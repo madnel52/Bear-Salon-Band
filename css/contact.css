@@ -1,0 +1,88 @@
+
+
+body {
+	background-image: url(../images/BEAR.png);
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	background-attachment: fixed;
+/*	height: 72vh;*/
+
+	height: 100%;
+}
+.cursive {
+
+	font-size: 26px;
+}
+ label {
+ 	font-size: 18px;
+ }
+p {
+	top: 20%;
+	position: absolute;
+	text-align: center;
+}
+
+form {
+	margin: auto;
+	top: 3%;
+	display: block;
+
+
+}
+
+h2 {
+	margin-top: 280px;
+	margin-bottom: 0;
+
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+}
+.form-container {
+	display: block;
+	top: 5%;
+	text-align: center;
+	position: relative;
+	padding: 0 2% 2% 2%;
+
+}
+
+
+input[type=text] {
+	height: 30px;
+	width: 15%;
+	margin: 10px;
+	border: 2px solid black;
+	font-weight: bold;
+	padding: 5px;
+}
+
+input[type=email] {
+	height: 30px;
+	width: 15%;
+	margin: 10px;
+	border: 2px solid black;
+	font-weight: bold;
+	padding: 5px;
+}
+
+textarea {
+	width: 45%;
+	height: 13em;
+	border: .25em solid black;
+	margin: 1em;
+	top: 70%;
+
+}
+
+button[type=submit] {
+	width: 20%;
+	height: 2.5em;
+	font-weight: bold;
+	background-color: orange;
+	font-size: 1em;
+	font-family: 'Ubuntu', sans-serif;
+	border: 4px black solid;
+}
